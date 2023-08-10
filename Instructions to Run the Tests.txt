@@ -1,0 +1,53 @@
+**Instructions to Run the Tests:**
+
+1. **Prerequisites:**
+   - Make sure you have a compatible web browser installed (e.g., Google Chrome, Mozilla Firefox, Safari).
+   - Ensure you have a stable internet connection.
+   - Obtain valid login credentials for the web application (username and password).
+
+2. **Access the Web Application:**
+   - Open your chosen web browser.
+
+3. **Navigate to the Login Page:**
+   - In the browser's address bar, type the URL of the web application's login page (e.g., www.example.com/login) and press Enter.
+   - The login page of the web application should load.
+
+4. **Perform Successful Login:**
+   - Enter your valid username and password in the appropriate fields on the login page.
+   - Click on the "Login" or "Sign In" button.
+   - Verify that you are successfully redirected to the home/dashboard page of the application.
+   - Check for any user-specific information or elements that indicate a successful login (e.g., user profile picture, username displayed).
+
+5. **Perform Invalid Username Login Attempt:**
+   - Go back to the login page if you're not already there.
+   - Enter an invalid username in the "Username" field and a valid password in the "Password" field.
+   - Click on the "Login" or "Sign In" button.
+   - Observe the error message that is displayed.
+   - Compare the displayed error message with the expected error message mentioned in the "Expected Result" section of the bug report.
+   - Ensure that the error message accurately reflects the problem, which should be related to the incorrect username.
+
+6. **Perform Missing Username Login Attempt:**
+   - Go back to the login page if you're not already there.
+   - Leave the "Username" field empty and enter your valid password in the "Password" field.
+   - Click on the "Login" or "Sign In" button.
+   - Observe the error message that is displayed.
+   - Compare the displayed error message with the expected error message mentioned in the "Expected Result" section of the bug report.
+   - Ensure that the error message accurately reflects the problem, which should indicate that the "Username" field is required.
+
+7. **Perform Missing Password Login Attempt:**
+   - Go back to the login page if you're not already there.
+   - Enter your valid username in the "Username" field and leave the "Password" field empty.
+   - Click on the "Login" or "Sign In" button.
+   - Observe the error message that is displayed.
+   - Compare the displayed error message with the expected error message mentioned in the "Expected Result" section of the bug report.
+   - Ensure that the error message accurately reflects the problem, which should indicate that the "Password" field is required.
+
+8. **Clean Up:**
+   - Log out from the application if you are still logged in.
+   - Close the web browser.
+
+9. **Report Findings:**
+   - If any discrepancies or issues are found during the tests, document them along with the steps you followed and the observed outcomes.
+   - If you encounter the bug related to the incorrect error message, provide the details mentioned in the bug report for reporting to the development team.
+
+Running these tests will help you verify the functionality of the login page and identify any potential issues.
